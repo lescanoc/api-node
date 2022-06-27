@@ -1,0 +1,5 @@
+npm init -y
+npm i express cors morgan dotenv
+npm i bcriptjs jsonwebtoken helmet 
+npm i mongoose
+npm i @babel/core @babel/cli @babel/node @babel/preset-env nodemon -D
