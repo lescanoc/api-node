@@ -4,9 +4,10 @@ import pkg from "../package.json";
 // Routes
 import motorsRoutes from "./routes/motors.routes";
 const app = express();
+const config = require('./config')
 
 // Settings
-app.set("port", 3000);
+app.set("port", config.app.port);
 app.set("pkg", pkg);
 
 // Middlewares
